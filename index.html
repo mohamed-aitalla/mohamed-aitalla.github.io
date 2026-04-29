@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Votre Nom — CV en ligne</title>
+  <meta name="description" content="CV en ligne de [Votre Nom] — Développeur Web" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+<nav>
+  <div class="nav-logo">YN.</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Accueil</a></li>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#formation">Formation</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#contact-section">Contact</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-line"></div>
+  <div class="hero-grid-line"></div>
+  <div class="hero-grid-line"></div>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-tag">Disponible pour opportunités</div>
+
+      <h1 class="hero-name">
+        Votre
+        <span>Nom</span>
+      </h1>
+
+      <p class="hero-title">Développeur Web Full Stack · Filière Informatique</p>
+
+      <div class="hero-contacts">
+        <a href="mailto:votre@email.com" class="contact-chip">
+          <i class="fas fa-envelope"></i> votre@email.com
+        </a>
+        <a href="https://linkedin.com/in/username" class="contact-chip" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/username" class="contact-chip" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">
+          <i class="fas fa-folder-open"></i> Voir mes projets
+        </a>
+        <a href="#contact-section" class="btn-secondary">
+          <i class="fas fa-paper-plane"></i> Me contacter
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="profile-card">
+        <!-- Replace with: <img src="photo.jpg" alt="Votre Nom" class="profile-img" /> -->
+        <div class="profile-img-placeholder">
+          <i class="fas fa-user"></i>
+          <span>Votre photo</span>
+        </div>
+        <div class="profile-badge">
+          <div class="badge-title">Statut</div>
+          <div class="badge-val">Étudiant · Dev</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+<section id="about">
+  <div class="reveal">
+    <div class="section-label">Introduction</div>
+    <h2 class="section-title">À propos de moi</h2>
+    <div class="section-divider"></div>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>
+        Passionné par le développement web depuis plusieurs années, je suis actuellement étudiant en
+        informatique avec une spécialisation en développement full stack. J'aime créer des expériences
+        utilisateur fluides et des architectures logicielles solides.
+      </p>
+      <p>
+        Mon parcours m'a permis d'explorer aussi bien le front-end que le back-end, en passant par
+        les bases de données, les APIs REST et les outils DevOps. Je suis toujours en quête de
+        nouvelles technologies et de bonnes pratiques.
+      </p>
+      <p>
+        En dehors du code, je m'intéresse à l'UI/UX design, à l'open source, et à la résolution de
+        problèmes algorithmiques. Je cherche à rejoindre une équipe ambitieuse pour contribuer à des
+        projets à impact réel.
+      </p>
+    </div>
+
+    <div class="about-stats reveal">
+      <div class="stat-card">
+        <span class="stat-num">3+</span>
+        <span class="stat-label">Années d'expérience</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">12</span>
+        <span class="stat-label">Projets réalisés</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">8</span>
+        <span class="stat-label">Technologies maîtrisées</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">2</span>
+        <span class="stat-label">Stages effectués</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+<div id="skills">
+  <div class="inner">
+    <div class="reveal">
+      <div class="section-label">Savoir-faire</div>
+      <h2 class="section-title">Compétences</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Front-end -->
+      <div class="skill-category reveal">
+        <h3><i class="fas fa-palette"></i> Front-end</h3>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">HTML5 / CSS3</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">JavaScript / jQuery</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">React.js</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Tailwind / Bootstrap</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+      </div>
+
+      <!-- Back-end -->
+      <div class="skill-category reveal">
+        <h3><i class="fas fa-server"></i> Back-end</h3>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Node.js / Express</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">PHP / Laravel</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Python / Django</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">REST API / GraphQL</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+        </div>
+      </div>
+
+      <!-- Outils -->
+      <div class="skill-category reveal">
+        <h3><i class="fas fa-tools"></i> Outils & DevOps</h3>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Git / GitHub</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">MySQL / MongoDB</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="74"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Docker</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Linux / CLI</span>
+            <span class="skill-pct">0%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ FORMATION ═══════════════════════════ -->
+<section id="formation">
+  <div class="reveal">
+    <div class="section-label">Parcours académique</div>
+    <h2 class="section-title">Formation</h2>
+    <div class="section-divider"></div>
+  </div>
+
+  <div class="formation-list reveal">
+
+    <div class="formation-item">
+      <div class="formation-header">
+        <div class="formation-left">
+          <span class="formation-year">2023 – 2025</span>
+          <div>
+            <div class="formation-school">École Nationale d'Informatique</div>
+            <div class="formation-degree">Master en Génie Logiciel</div>
+          </div>
+        </div>
+        <i class="fas fa-chevron-down formation-icon"></i>
+      </div>
+      <div class="formation-body">
+        Formation avancée en architecture logicielle, développement web fullstack,
+        intelligence artificielle et gestion de projets agiles. Projet de fin d'études
+        sur les microservices et le déploiement cloud.
+      </div>
+    </div>
+
+    <div class="formation-item">
+      <div class="formation-header">
+        <div class="formation-left">
+          <span class="formation-year">2020 – 2023</span>
+          <div>
+            <div class="formation-school">Université des Sciences et Technologies</div>
+            <div class="formation-degree">Licence en Informatique</div>
+          </div>
+        </div>
+        <i class="fas fa-chevron-down formation-icon"></i>
+      </div>
+      <div class="formation-body">
+        Fondamentaux de la programmation (C, Java, Python), algorithmique, systèmes
+        d'exploitation, réseaux, bases de données relationnelles. Mention Bien.
+      </div>
+    </div>
+
+    <div class="formation-item">
+      <div class="formation-header">
+        <div class="formation-left">
+          <span class="formation-year">2018 – 2020</span>
+          <div>
+            <div class="formation-school">Lycée Technique Mohammed VI</div>
+            <div class="formation-degree">Baccalauréat Sciences Mathématiques</div>
+          </div>
+        </div>
+        <i class="fas fa-chevron-down formation-icon"></i>
+      </div>
+      <div class="formation-body">
+        Option Informatique. Mention Très Bien. Prix d'excellence régional.
+        Premier contact avec la programmation via des projets en C et Pascal.
+      </div>
+    </div>
+
+    <div class="formation-item">
+      <div class="formation-header">
+        <div class="formation-left">
+          <span class="formation-year">2024</span>
+          <div>
+            <div class="formation-school">Coursera / freeCodeCamp</div>
+            <div class="formation-degree">Certifications en ligne</div>
+          </div>
+        </div>
+        <i class="fas fa-chevron-down formation-icon"></i>
+      </div>
+      <div class="formation-body">
+        Meta Front-End Developer Certificate, React Developer Path (freeCodeCamp),
+        AWS Cloud Practitioner Essentials. Auto-formation continue via documentation
+        officielle et projets open source.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+<section id="projects">
+  <div class="reveal">
+    <div class="section-label">Réalisations</div>
+    <h2 class="section-title">Projets & Expériences</h2>
+    <div class="section-divider"></div>
+  </div>
+
+  <!-- React mounts here -->
+  <div id="projects-mount"></div>
+</section>
+
+<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+<div id="contact-section">
+  <div class="inner">
+    <div class="reveal">
+      <div class="section-label">Travaillons ensemble</div>
+      <h2 class="section-title">Me Contacter</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start;">
+
+      <div class="reveal">
+        <p style="color:#aaa; margin-bottom:2rem; font-size:1.05rem;">
+          Vous avez un projet, une opportunité de stage ou simplement envie d'échanger ?
+          N'hésitez pas à me laisser un message — je réponds généralement sous 24h.
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:1rem;">
+          <a href="mailto:votre@email.com" class="contact-chip" style="width:fit-content;">
+            <i class="fas fa-envelope"></i> votre@email.com
+          </a>
+          <a href="https://linkedin.com/in/username" class="contact-chip" style="width:fit-content;" target="_blank">
+            <i class="fab fa-linkedin"></i> linkedin.com/in/username
+          </a>
+          <a href="https://github.com/username" class="contact-chip" style="width:fit-content;" target="_blank">
+            <i class="fab fa-github"></i> github.com/username
+          </a>
+        </div>
+      </div>
+
+      <!-- React ContactForm mounts here -->
+      <div id="contact-form-mount" class="reveal"></div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer>
+  <p>Conçu & développé par <span>Votre Nom</span> · 2025 · HTML/CSS + jQuery + React</p>
+</footer>
+
+
+<!-- ═══════════════════════════ SCRIPTS ═══════════════════════════ -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- React + ReactDOM + Babel (for JSX in browser) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+
+<!-- jQuery interactions -->
+<script src="script.js"></script>
+
+<!-- React components (Babel transforms JSX in browser) -->
+<script type="text/babel" src="components.jsx"></script>
+
+</body>
+</html>
