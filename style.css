@@ -269,6 +269,7 @@ nav {
 .profile-card {
   position: relative;
   width: 280px;
+  padding-bottom: 50px;
 }
 
 .profile-card::before {
@@ -310,7 +311,7 @@ nav {
 
 .profile-badge {
   position: absolute;
-  bottom: -16px;
+  bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--bg2);
